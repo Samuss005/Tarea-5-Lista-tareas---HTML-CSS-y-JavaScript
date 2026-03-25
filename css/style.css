@@ -1,7 +1,12 @@
-body{
+* {
+    padding: 0;
     margin: 0;
+}
+/*cuerpo de la pagina*/
+
+body{
     font-family: Arial, sans-serif;
-    background-color: #cfd8dc;
+    background-color: #ababab;
 }
 
 /*titulo*/
@@ -13,26 +18,35 @@ body{
 
 /*contenedor principal */
 
-.contendor{
-    background-color: #e0e0e0;
-    margin: auto;
-    width: 400px;
-    border-radius: 15px;
-    padding: 20px;
+.contenedor {
+    display: flex;
+    justify-content: center; 
 }
+/*Lo hizo alejandro xd*/
+
+.card {
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 25px;
+    background-color: white;
+    border: solid 1px rgb(146, 143, 143);
+}
+
 
 /*formulario*/
 
-.formulario{
+.formulario {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
 }
 
-/*input bonito*/
+/*input*/
+
 input{
     padding: 10px;
-    flex: 1;
     border: 2px solid #6b63dc;
     border-radius: 10px;
     outline: none;
@@ -42,7 +56,7 @@ input{
 
 button{
     padding: 10px 15px;
-    background-color: #6b63dc;
+    background-color: #736be5;
     color: white;
     border-radius: 10px;
 }
