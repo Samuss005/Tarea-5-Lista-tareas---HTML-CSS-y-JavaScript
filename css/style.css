@@ -61,3 +61,27 @@ button{
     border-radius: 10px;
 }
 
+/* Texto */
+.texto-tarea{
+    font-size: 18px;
+}
+
+/* Botón borrar */
+.boton-borrar{
+    background-color: #00ff11;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ /*Contendor de las tareas debajo del formulario */
+.tarea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcdde1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
